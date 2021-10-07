@@ -1,12 +1,13 @@
-import React from 'react';
+import Upload from './Upload';
 import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>Parser</h1>
-    </div>
+    <>
+      <h1>File Upload </h1>
+      <Upload />
+    </>
   );
-};
+}
 
 export default App;
