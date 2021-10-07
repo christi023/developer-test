@@ -81,21 +81,11 @@ const prefixData = (arr) => {
     slices += dataColumns.length;
     promiseThisIsFinal.push(bigData[0].slice(slices, slices + dataColumns.length));
   }
-  // check this function here
-  /* let result = Object.keys(promiseThisIsFinal).map((key) => ({
-    key,
-    value: promiseThisIsFinal[key],
-  }));*/
 
   return {
     columns: dataColumns,
     data: promiseThisIsFinal,
   };
 };
-//columns: dataColumns,
-// data : promiseThisIsFinal
-//
-//const dataToMap = prefixData();
-//console.log(dataToMap.data);
 
 export default prefixData;
