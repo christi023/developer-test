@@ -5,7 +5,7 @@ const TableBody = ({ userData }) => {
         console.log('mmm', data);
         return (
           <tr key={index}>
-            <th scope="row">{data.Rank}</th>
+            <th scope="row">{data.index}</th>
             <td>{data.CLINIC_NO}</td>
             <td>{data.BARCODE}</td>
             <td>{data.PATIENT_ID}</td>
