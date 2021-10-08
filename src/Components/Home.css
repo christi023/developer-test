@@ -1,0 +1,21 @@
+.Home {
+  z-index: 10;
+  text-align: center;
+  margin: 10px 24px;
+  transition: 0.1s all ease-in-out;
+  animation: app-enter-anim 0.1s ease-out;
+  background-image: url('../background.jpeg');
+}
+.Home-text {
+  opacity: 1;
+  transition: 0.1s all ease-in-out;
+}
+
+.Home-text__title {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.Home-text__body {
+  color: #fff;
+}
