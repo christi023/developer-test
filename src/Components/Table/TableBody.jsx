@@ -2,7 +2,6 @@ const TableBody = ({ userData }) => {
   return (
     <tbody>
       {userData.map((data, index) => {
-        console.log('mmm', data);
         return (
           <tr key={index}>
             <th scope="row">{data.index}</th>
